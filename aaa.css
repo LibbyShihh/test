@@ -1,0 +1,48 @@
+#wrap { display:table; }
+#cell { display:table-cell; vertical-align:middle; }
+
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+
+h1{
+   /* font-size:100px; */
+   font-family:微軟正黑體;
+   color: #7744FF;  
+}
+h2{
+    /* font-size:80px; */
+   font-family:微軟正黑體;
+   color:white; 
+}
+h3{
+    /* font-size:30px; */
+   font-family:微軟正黑體;
+   color:white; 
+}
+h4{
+    /* font-size:50px; */
+   font-family:微軟正黑體;
+   color:white; 
+}
+
+@media(max-width: 920px) {
+    .h1 .h2 .h3 .h4 {
+        background: orange;
+    }
+}
+
+@media(max-width: 768px) {
+    .h1 .h2 .h3 .h4 {
+        background: lightyellow;
+    }
+}
+
+@media(max-width: 540px) {
+    .h1 .h2 .h3 .h4 {
+        background: lightgreen;
+    }
+}
+
